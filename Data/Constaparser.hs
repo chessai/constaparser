@@ -10,6 +10,7 @@ module Data.Constaparser
   , constaparserToAttoparsec
   , withMutableVector
   , cpInt 
+  , dropTrailingSpace 
   ) where
 
 import Control.Applicative
