@@ -5,8 +5,8 @@
 {-# OPTIONS_GHC -O2 #-}
 
 module Data.Constaparser 
-  ( Constaparser
-  , ConstaparserST
+  ( Constaparser(..)
+  , ConstaparserST(..)
   , constaparserToAttoparsec
   , withMutableVector
   , cpInt 
