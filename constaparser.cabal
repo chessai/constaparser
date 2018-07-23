@@ -1,7 +1,7 @@
 name:                constaparser
-version:             0.1.0.0
-synopsis:            Parse ByteStrings of a constant length. 
-description:         Parse constant-length ByteStrings, which allows
+version:             0.1.0.1
+synopsis:            Parse ByteStrings of a prescribed length. 
+description:         Parse prescribed-length ByteStrings, which allows
                      for some performance optimisations.
                      You can also convert from a 'Constaparser' to a
                      'Parser' from Attoparsec.
@@ -19,7 +19,7 @@ cabal-version:       >=1.10
 library
   exposed-modules:     Data.Constaparser
                        Data.Constaparser.Internal 
-  build-depends:       base >= 4.7
+  build-depends:       base >= 4.7 && <5.0
                      , attoparsec
                      , bytestring
                      , vector
